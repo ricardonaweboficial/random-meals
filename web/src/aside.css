@@ -1,0 +1,46 @@
+aside {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border-bottom: 3px solid #f1f1f1;
+}
+
+.imageMeal {
+	text-align:center;
+}
+
+.imageMeal img {
+	width:80%;
+	height:200px;
+	border:2px solid #fff;
+	box-shadow: 0 0 100px rgba(255, 255, 255, 0.2);
+}
+
+.ingredientsMeal {
+	width:100%;
+	margin-top:20px;
+
+}
+
+.ingredientsMeal p {
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	color:white;
+}
+
+.ingredientsMeal ul {
+	margin:30px 0;
+	color:white;
+}
+
+.ingredientsMeal ul li {
+	width:100%;
+	font-size:17px;
+	padding:5px;
+}
+
+.ingredientsMeal ul li span {
+	color:#C94242;
+	font-weight:bold;
+}

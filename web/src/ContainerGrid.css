@@ -1,0 +1,41 @@
+.container {
+	width:100%;
+	background:#606060;
+	display:grid;
+	grid-template-areas: 'aside header'
+						 'aside section'
+						 'footer footer';
+	grid-template-rows: 25% 40% 35%;
+	grid-template-columns: 1fr 2fr;
+
+	
+}
+
+.container > * {
+	padding:30px;
+}
+
+.container aside {
+	grid-area: aside;
+	background:#1B1B1B;
+	overflow:auto;
+}
+
+.container header {
+	grid-area: header;
+	background:#1B1B1B;
+}
+
+.container section {
+	grid-area:section;
+	background:#f1f1f1;
+	overflow:auto;
+}
+
+.container footer {
+	grid-area:footer;
+	background:#1B1B1B;
+	width:100%;
+}
+
+
